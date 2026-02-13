@@ -94,15 +94,15 @@
     },
     "license": "MIT",
     "dependencies": {
-        "axios": "^1.4.0",
         "basic-auth": "^2.0.1",
         "cookies": "^0.8.0",
         "debug": "^4.3.4",
         "moment": "^2.29.4",
         "path-to-regexp": "^6.2.1",
-        "qs": "^6.14.2",
-        "send": "^0.19.1",
-        "uuid": "^9.0.0"
+    "qs": "^6.14.2",
+    "send": "^0.19.1",
+    "uuid": "^9.0.0",
+    "axios": "^1.4.0"
     },
     "peerDependencies": {
         "prom-client": ">= 10 <= 14"
@@ -118,7 +118,7 @@
         "cross-env": "^7.0.3",
         "cuid": "^3.0.0",
         "express": "^4.18.2",
-        "fastify": "^5.7.4",
+    "fastify": "^5.7.4",
         "fastify-express": "^0.4.0",
         "istanbul": "^0.4.5",
         "mocha": "^10.2.0",
@@ -126,14 +126,14 @@
         "nyc": "^15.1.0",
         "prom-client": "^14.2.0",
         "q": "^1.5.1",
-        "request": "^2.88.2",
         "restify": "^11.1.0",
         "serve-favicon": "^2.5.0",
         "serve-static": "^1.15.0",
         "should": "^13.2.3",
         "supertest": "^6.3.3",
         "swagger-parser": "^10.0.3",
-        "swagger-stats-ux": "^0.95.29"
+        "swagger-stats-ux": "^0.95.29",
+        "request": "^2.88.2"
     },
     "overrides": {
         "restify": {
